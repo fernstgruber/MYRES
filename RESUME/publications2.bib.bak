@@ -1,0 +1,18 @@
+% This file was created with JabRef 2.10b2.
+% Encoding: UTF-8
+
+
+@Misc{misc3,
+  Title                    = {Title},
+
+  Author                   = {John Doe},
+  Year                     = {year}
+}
+
+@Article{misc1,
+  Title                    = {Algorithms vs. surveyors: a comparison of automated landform delineations and surveyed topographic positions from soil mapping in an Alpine environment},
+  Author                   = {Fabian E. Gruber and Jasmin Baruck and Clemens Geitner},
+  Journal                  = {Geoderma},
+  Year                     = {{submitted}}
+}
+
