@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.24)  20 NOV 2017 09:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.18)  13 DEC 2017 09:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **fullresumewithcover.tex
 (./fullresumewithcover.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 9 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2013/04/29 v1.5.1 modern curriculum vitae and letter d
 ocument class
@@ -981,12 +981,12 @@ Package rerunfilecheck Info: File `fullresumewithcover.out' has not changed.
 (rerunfilecheck)             Checksum: DBB78B49121466A5C9BAF5FBABBFC428;1525.
  ) 
 Here is how much of TeX's memory you used:
- 24903 strings out of 493304
- 444011 string characters out of 6139871
- 527458 words of memory out of 5000000
- 27869 multiletter control sequences out of 15000+600000
+ 24903 strings out of 494935
+ 444011 string characters out of 6178122
+ 523597 words of memory out of 5000000
+ 27643 multiletter control sequences out of 15000+600000
  70735 words of font info for 85 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 36 hyphenation exceptions out of 8191
  70i,13n,59p,10396b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/s

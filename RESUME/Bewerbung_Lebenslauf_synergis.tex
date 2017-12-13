@@ -7,7 +7,13 @@
 
 
 \documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage{ragged2e}
+\usepackage{lastpage}
 
+\usepackage{fancyhdr}
+
+\fancyfoot[C]{ \thepage\ / \pageref{LastPage}}
+\usepackage{pdfpages}
 % moderncv themes
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
 \moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
@@ -22,11 +28,11 @@
 \usepackage[scale=0.75]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
-\usepackage{ragged2e}
+
 % personal data
 \name{Fabian E.}{Gruber}
 %\title{Resumé title}                               % optional, remove / comment the line if not wanted
-\address{22.06.1982}{Anna-Stainer-Knittel-Weg 3/5/4}{6020 Innsbruck, Austria}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\address{Anna-Stainer-Knittel-Weg 3/5/4}{6020 Innsbruck, Austria}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
 \phone[mobile]{+43~650~2587521}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 %\phone[fixed]{+2~(345)~678~901}
 %\phone[fax]{+3~(456)~789~012}
@@ -36,7 +42,7 @@
 %\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
 %\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-\photo[64pt][0.4pt]{IMG_3890_cropped2}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\photo[64pt][0.2pt]{IMG_3890_cropped2}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{}                                 % optional, remove / comment the line if not wanted
 
 % bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
@@ -53,29 +59,33 @@
 %----------------------------------------------------------------------------------
 \begin{document}
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
-%-----       resume       ---------------------------------------------------------
+
 %-----       letter       ---------------------------------------------------------
 % recipient data
-\recipient{Teresa Mancevski}{Airborne Technologies GmbH \\Viktor Lang Stra{\ss}e 8\\A-2700 Wiener Neustadt}
-\date{22. Nov, 2018}
-\opening{Sehr geehrte Frau Mancevski,}
+\recipient{SynerGIS Informationssysteme GmbH \\z.H. Herrn Gernot Tutsch}{Technologiestra{\ss}e 10\\1120 Wien}
+\date{15. Dezember, 2018}
+\opening{Sehr geehrter Herr Tutsch,}
 \closing{Mit besten Gr\"{u}{\ss}en,}
-\enclosure[Anhang]{Lebenslauf und Publikationsliste}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\enclosure[Anhang]{Lebenslauf, Publikationsliste und Diplombescheid}       % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+
 \makelettertitle
 \justify
-Ich m\"{o}chte mich hiermit f\"{u}r die Stelle 'Mitarbeiter in der Datenverarbeitung' bewerben. Zur Zeit bin ich als wissenschaflicher Mitarbeiter am Institut f\"{u}r Geographie der LFU Innsbruck angestellt, wo ich auch an meiner Dissertation mit dem Arbeitstitel "Digital terrain analysis to support soil survey" arbeite.
+Hiermit m\"ochte ich mich f\"ur die Stelle des GIS Team Mitarbeiters bewerben. Zur Zeit bin ich noch als wissenschaftlicher Mitarbeiter an der LFU Innsbruck am Institut f\"ur Geographie angestellt und schreibe an meiner Dissertation mit dem Titel 'Digital terrain analysis to support field soil survey'.
 
-Die intensive Besch\"{a}ftigung mit Photogrammetrie und Fernerkundung begann schon im 2. Abschnitt meines Studiums der Kulturtechnik und Wasserwirtschaft der Universit\"{a}t f\"{u}r Bodenkultur in Wien. Neben den Lehrveranstaltungen und \"{U}bungen der Grundlagenf\"{a}cher Vermessungswesen sowie Photogrammetrie und Fernerkundung absolvierte ich auch den Wahlfachblock Photogrammetrie und Fernerkundung, welches neben der Angewandten Geologie das zweite Pr\"{u}fungsfach meiner Diplompr\"{u}fung war. Als studentischer Mitarbeiter am Institut f\"{u}r Angewandte Geologie sammelte ich erste praktische Erfahrung in der Bearbeitung und Analyse von Fernerkundungsdaten. Im konkreten Projekt 'Remote Geohazards Assessment in Tajikistan (TajHaz)' besch\"{a}ftigte ich mich neben der Digitalisierung von Wasserflächen und Gletschergebieten auch mit der überwachten Klassifizierung dieser Fl\"achen anhand von Landsat und ASTER Satellitendaten.  Die gr\"undliche Beschäftigung mit und Erfahrung in der Arbeit mit Geoinformationssystemen erschloss mir auch die Möglichkeit noch w\"ahrend des Studiums als Tutor f\"{u}r die \"{U}bung "Geoinformationssysteme" zu arbeiten sowie nach dem Abschluss meines Studiums in einem Nachfolgeprojekt am Institut f\"{u}r Geologie angestellt zu werden. Hierbei verstärkte sich die Anwendung von freien Geoinformationsystemen wie etwa GRASS GIS, unter anderem f\"{u}r die Landbedeckungskartierung in schwer zug\"anglichen Gebieten in Tajikistan anhand von Satellitenfernerkundung und digitalen Geländemodelle. Weiters erhielt ich erste Einblicke in die Anwendung von Radarfernerkundung zur Kartierung von Massenbewegungen mit der Software Sarscapes, welche ich vor Kurzem durch den Abschluss des Onlinekurses "Echoes in Space - Introduction to radar remote sensing' der European Space Agency mit der Anwendung des frei verfügbaren Tools 'SNAP' erweitert habe.
+Erste Erfahrungen mit GIS machte ich bereits im Rahmen meines Studiums der Kulturtechnik und Wasserwirtschaft an der Universit\"at f\"ur Bodenkultur (Wien), wo ich  den vertiefenden Wahlfachblock 'Photogrammetrie und Fernerkundung'  absolvierte, der auch eines meiner beiden Diplompr\"ufungsf\"acher darstellte. Als studentischer Mitarbeiter am Institut f\"ur Angewandte Geologie war ich an dem Projekt 'Remote Geohazards Assessment in Tajikistan (TajHaz)' beteiligt, bei dem mit GIS und Fernerkundungsmethoden ein Ereignis- und Seenkataster f\"ur abgelegene Regionen in Tajikistan erstellt wurde. Weiters war ich w\"ahrend meiner Studienzeit als ArcGIS-Tutor im Rahmen der Lehrveranstaltung 'Einf\"uhrung in GIS' angestellt. Nach meiner Diplomarbeit am Institut f\"ur Angewandte Geologie, welche sich mit der Modellierung von Bergsturzseeausbr\"uchen  besch\"aftigte, war ich weiterhin als Projektmitarbeiter an diesem Institut besch\"aftigt im Rahmen des Projekts 'Poverty Alleviation through Mitigation of Integrated High-Mountain Risk (PAMIR)'. Dabei wurden regionale Naturgefahrenhinweiskarten mithilfe einer Kombination aus automatisierter sowie expertenbasierter Kartierung und Klassifikation erstellt.
 
-Nach dem Wechsel an die LFU Innsbruck, wo ich eine Stelle als Projektmitarbeiter am Institut f\"{u}r Geographie mit M\"{o}glichkeit der Verfassung einer Dissertation antrat, begann die intensivierte Besch\"{a}ftiung mit digitalen Gel\"andemodellen. Im Rahmen meiner T\"{a}tigkeiten im Rahmen mehrerer Projekte analysiere ich die Anwendbarkeit des aus ALS-Daten entstandenen, vom Land Sudtirol zur Verf\"{u}gung gestellten, DGMs im Rahmen von Bodenkarierungen in S\"{u}dtirol. In einer Publikation verglich ich etwa die Ergebnisse verschiedener automatisierter Gel\"{a}ndeklassifikationsalgorithmen hinsichtlich derer Eignung, das Gel\"{a}nde im Sinne des Bodenkartierers und dessen Boden-Landschafts-Modells einzuteilen. Weiters untersuchte ich inwieweit aus DGM abgeleitete Gel\"{a}ndeparameter imstande sind, geologische Einheiten zu charakterisieren, etwas hinsichtlich Oberfl\"{a}chenrauhigkeit. F\"{a}r die genannten Analysen und \"{a}hnliche Aufgaben im Rahmen weiterer Projekte greife ich gerne auf Methoden aus dem Bereich des maschinellen Lernens bzw. der statistischen Modellierung zur\"{u}ck. Hierf\"{u}r verwende ich haupts\"achlich R, eine freie Programmiersprache f\"{u}r statistisches Rechnen , und die freien Geoinformationssysteme  GRASS und SAGA, sowie QGIS zur Visualisierung der Ergebnisse. Neben der Prammiersprache R  verwende ich auch Python Scripts zur Automatisierung von Workflows.
+Im Sommer 2013 wechselte ich als Projektmitarbeiter ans Institut f\"ur Geographie in Innsbruck, wo  im Rahmen des Projekts 'Reliefklassifizierung aus ALS Daten als Grundlage f\"ur die Regionalisierung von Bodendaten (ReBo)' weiterhin die Arbeit mit Geoinformationssystemen zu meinen t\"aglichen Aufgaben geh\"orte, wobei hier haupts\"achlich quelloffene GIS, vor Allem GRASS GIS und Quantum GIS, aber auch SAGA GIS, verwendet wurden. Statistische Analysen der Geodaten, sowie darauf basierendes statistisches Lernen, wurden mit R, der freien Programmiersprache f\"{u}r statistisches Rechnen, durchgef\"uhrt. Python Scripts dienten zur Automatisierung von Rechenabl\"aufen in GRASS und SAGA GIS. In Innsbruck begann auch eine intensive Auseinandersetzung mit maschinellem Lernen, etwa zur r\"aumlichen Modellierung von Gel\"andeformen  oder dem Bodenausgangsmaterial f\"ur die Anwendung in der klassischen Bodenkartierung. 
 
-Aufgrund meiner langj\"{a}hrigen Erfahrung als Projektmitarbeiter an verschiedenen Universit\"{a}ten bringe ich viel Erfahrung in selbstst\"{a}ndiger Arbeit mit. Weiters bringe ich die F\"{a}higkeit mich rasch in neue Themen einzuarbeiten sowie ein ausgepr\"{a}gtes Interesse an Fernerkundungsmethoden und deren Verwendung in verschiedensten Anwendungsgebieten. Ein Blick auf die auf der Homepage angef\"{u}hrten vergangenen Projekte ihrer Firma hat daher mein interesse geweckt. Da ich noch ein Jahr in Innsbruck verbringen werde, interessiere ich mich f\"{u}r die M\"{o}glichkeit von Homeoffice sowie Teilzeit, da ich bei einem Wochenstundenausma{ss} von 25 Stunden auch an meiner Dissertation und deren Abschluss arbeiten kann. 
+
+Die intensive Besch\"aftigung mit Open Source Geoinformationssystemen hat mir, wenn auch nicht ArcGIS-spezifisch, wichtige Einblicke in die Funktionsweise von GIS im Allgemeinen, sowie darin integrierten  spezifischen Tools gebracht. Meine Python-Grundlagen erlauben mir neben der Automatisierung von Abl\"aufen zur L\"osung spezifischer, vor Allem raumbezogener, Aufgaben auch Einsicht in den Code vieler GIS-Tools zu nehmen und die tats\"achlichen Berechnungen besser zu verstehen. Aufgrund meiner langj\"{a}hrigen Erfahrung als Projektmitarbeiter an verschiedenen Universit\"{a}ten bringe ich viel Erfahrung in selbstst\"{a}ndiger Arbeit mit, genauso aber auch Erfahrung in der Zusammenarbeit mit Personen aus unterschiedlichen Fachgebieten. Meine Lernbereitschaft zeigt sich einerseits in der selbstst\"andigen Einarbeitung in neue Themen und Software im Rahmen meiner Forschungst\"atigkeiten, sowie andererseits in der freiwillige Teilnahme und  Absolvierierung von Onlinekursen wie z.B. 'Statistical learning' von Stanford Online oder 'Echoes in Space - Introduction to radar remote sensing' der ESA. Dies unterstreicht auch mein ausgepr\"agtes Interesse an Geoinformation und verwandten Bereichen. Die Arbeit als Lektor im Fach '\"Ubungen zur Statistik' zeigt wiederum mein Interesse daran, selbst angeeignetes Wissen weiter zu geben.
+
+Nach mehren Jahren der T\"atigkeit an Universit\"aten m\"ochte ich nun ein neues Kapitel aufschlagen und mich f\"ur die ausgeschriebene Stelle bewerben. An der Stelle reizt mich sowohl die M\"oglichkeit mich auch in Zukunft intensiv mit GIS besch\"aftigen zu k\"onnen, als auch  Anwender bei der Analyse und L\"osung von Problemen zu unterst\"utzen . \"Uber eine Einladung zu einem Gespr\"ach w\"urde ich mich freuen.
+
 \makeletterclosing
-
 \clearpage
-
-
+%-----       resume       ---------------------------------------------------------
 \makecvtitle
+
 
 \section{Berufserfahrung}
 \cventry{2013--Heute   }{Wissenschaftlicher Mitarbeiter}{Institut f\"{u}r Geographie, Universit\"{a}t Innsbruck}{Innsbruck}{}{Forschungsprojekte: 
@@ -93,8 +103,8 @@ Aufgrund meiner langj\"{a}hrigen Erfahrung als Projektmitarbeiter an verschieden
   \item Mitarbeit bei der Entwicklung der Java-Applikation "SEPP" (Soil Evaluation in Planning Procedures) f\"{u}r Bodenfunktionsbewertungen
   \end{itemize}
 \end{itemize}}
-\cventry{2016--2017}{Universit\"{a}tsdozent}{Institute of Geography, University of Innsbruck}{Innsbruck}{}{\"{U}bungen zur Statistik mit R (2 Semester)}
-\cventry{2016--2017}{Bildungskarenz}{}{}{}{Arbeit an Disseration mit dem Arbeitstitel 'Digital terrain analysis to support field soil survey'}
+\cventry{2016--2017}{Universit\"{a}tsdozent}{Institut f\"{u}r Geographie, Universit\"{a}t Innsbruck}{Innsbruck}{}{\"{U}bungen zur Statistik mit R (2 Semester)}
+\cventry{2016--2017}{Bildungskarenz}{}{}{}{Arbeit an Dissertation mit dem Arbeitstitel 'Digital terrain analysis to support field soil survey'}
 \cventry{2011--2013}{Wissenschaftlicher Mitarbeiter}{Institut f\"{u}r Angewandte Geologie, BOKU}{Wien}{}{Forschungsprojekte: 
 \begin{itemize}%
 \item Hazard assessment for an expected dam break flood in the Hunza Valley, Pakistan: A combination of GIS, Remote Sensing, and computer simulation techniques
@@ -104,14 +114,15 @@ Aufgrund meiner langj\"{a}hrigen Erfahrung als Projektmitarbeiter an verschieden
   \end{itemize}
 \item Poverty Alleviation through Mitigation of Integrated High-Mountain Risk (PAMIR)
 \begin{itemize}%
-  \item Kartierung von Naturgefahren, Gletschern und Infrastruktur durch Fernerkundungsmethoden
+  \item Kartierung von Naturgefahren, Gletschern und Infrastruktur mit GIS und Fernerkundungsmethoden
+  \item Erstellung ein Naturgefahrenhinweiskarte
   \end{itemize}
   \end{itemize}}
 \cventry{2009--2010}{Projektmitarbeiter}{Institut f\"{u}r Angewandte Geologie, BOKU}{Wien}{}{Forschungsprojekt: 
 \begin{itemize}%
 \item Remote Geohazards Assessment in Tajikistan (TajHaz)
 \begin{itemize}%
-  \item Kartierung von Naturgefahren und Gletscherseen anhand von Satellitenbildern 
+  \item Kartierung von Naturgefahren und Gletscherseen anhand von Satellitenbildern  und GIS
   \item Feldarbeit in Tajikistan
   \end{itemize}
   \end{itemize}}
@@ -119,7 +130,7 @@ Aufgrund meiner langj\"{a}hrigen Erfahrung als Projektmitarbeiter an verschieden
 \cventry{2010--2011}{Tutor}{ Institut f\"ur Landschaftsentwicklung, Erholungs- und Naturschutzplanung, BOKU }{Wien}{}{Tutor f\"ur ArcGIS im Rahmen der LV "Einf\"uhrung in GIS"}
 
 \section{Ausbildung}
-\cvitem{2002--2011}{Diplomstudium der Kulturtechnik unc Wasserwirtschaft an der Universit\"{a}t f\"{u}r Bodenkultur (BOKU), Wien}
+\cvitem{2002--2011}{Diplomstudium der Kulturtechnik und Wasserwirtschaft an der Universit\"{a}t f\"{u}r Bodenkultur (BOKU), Wien}
 \cvitem{1993--2001}{Linz International School Auhof, Linz:
 Abschluss mit Matura und International Baccalaureate (IB)}
 \cvitem{1991--1993}{Volksschule Linz-Pichling}
@@ -133,13 +144,13 @@ Floods}}
 
 \section{Sprachen}
 \cvitemwithcomment{Deutsch}{Muttersprache}{ }
-\cvitemwithcomment{English}{Verhandlungssicher}{ }
-\cvitemwithcomment{Spanish}{Grundkenntnisse}{ }
-\cvitemwithcomment{French}{Grundkenntnisse}{ }
+\cvitemwithcomment{Englisch}{Verhandlungssicher}{ }
+\cvitemwithcomment{Spanisch}{Grundkenntnisse}{ }
+\cvitemwithcomment{Franz\"osisch}{Grundkenntnisse}{ }
 
 \section{EDV-Kenntnisse}
 \cvdoubleitem{Operating systems}{Linux (Ubuntu), Windows} {Languages}{R, Python, Bash}
-\cvdoubleitem{Geographic information systems}{GRASS, SAGA, QGIS, ARCGIS} {Text- verarbeitung } {MS Word, Libreoffice,  \LaTeX{} with Texmaker}
+\cvdoubleitem{Geographic information systems}{ArcGIS, GRASS, SAGA, QGIS } {Text- verarbeitung } {MS Word, Libreoffice,  \LaTeX{} with Texmaker}
 \cvdoubleitem{Bild- verarbeitung}{GIMP, Inkscape} {Modellierungs- software } {FLO-2D, Ramms, Dan-3D}
 \section{Hobbies}
 \cvitem{G\"artnerei}{Mitarbeit beim Gemeinschaftsgarten der Vinzigemeinschaft Waldhuttl, Innsbruck}
@@ -151,6 +162,7 @@ Floods}}
 \renewcommand{\refname}{Publikationen}
 \nocite{*}
 \bibliographystyle{plain}
+\bibliography{publications3}   
 \section{Publikationen}
 \subsection{Peer-reviewed journal articles and book chapters}
 \cvitem{[1]}{Gruber, F.E., Baruck, J., Geitner, C. (2017):  Algorithms vs. surveyors: a comparison of automated landform delineations and surveyed topographic positions from soil mapping in an Alpine environment. Geoderma 308, 9-25.}
@@ -185,6 +197,8 @@ digital soil mapping. -- EGU General Assembly 2014 (28.04.-02.05.2014, Vienna (A
 
 \clearpage
 %\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\includepdf{Dipling_seite6von6.pdf}
+
 \end{document}
 
 

@@ -12,7 +12,7 @@
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
 \moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
 %\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
@@ -54,26 +54,6 @@
 \begin{document}
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
-%-----       letter       ---------------------------------------------------------
-% recipient data
-\recipient{Alia Harrison}{IIASA -- Human Resources \\Schlossplatz 1\\A-2361 Laxenburg}
-\date{May 01, 2017}
-\opening{Dear Madam,}
-\closing{Yours faithfully,}
-\enclosure[Attached]{resume and references}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
-\makelettertitle
-
-I am writing to apply for the position of Postdoctoral Research Scholar - Remote Sensing of land cover and land-use, advertised on the web appearance of the IIASA. Currently, I am working on my PhD thesis concerned with digital terrain analysis to support soil survey at the Institute of Geography of the University of Innsbruck, Austria.
-
-Remote sensing and geographic information science have been my area of research ever since getting involved with these topics at the Institute of Applied Geology at the University of Natural Resources and Life Sciences (BOKU), Vienna. There, satellite imagery and its derivatives played an important role in mapping geomorphological hazards and the land-use of vulnerable areas. The multi-temporal analysis of the extent of glacial lakes was vital for assessing  regional geohazards in Tajikistan, together with the application of DINSAR with ENVI-Sarscape to detect mass movements in smaller study areas. The application of remotely sensed data is continued in my research at the Institute of Geography of the University of Innsbruck, mainly in the form of digital elevation information. Here I focus on terrain analysis using Open Source landform classification algorithms and python scripting, as well as applying statistical learning approaches within the statistical computing environment R. Inside the context of digital soil mapping, land-use information persisted to be of relevance, being an essential environmental variable for analysing the spatial distribution of soils.   
-
-The research with regard to the formation and distribution of soils, be it through field survey in South Tyrol or soil modelling in the office, has increased by awareness of the interconnectivity between soil and land-use and consequently strengthened my interest in sustainable agriculture. This is a major reason why I am intrigued by the position at the Ecosystems Services and Management Program. It poses the possibility to advance my research into delineating and mapping spatial units of interest, and at the same time enter a new field of research that I find highly interesting and essential at a personal as well as scientific level.   
-
-I have enclosed a resume and references, and would enjoy discussing this position at your convenience. Should you require any additional material or information, I am happy to supply it. Thank you for your consideration.
-
-\makeletterclosing
-
-\clearpage
 \makecvtitle
 
 \section{Education}
@@ -129,11 +109,10 @@ Evaluation in Planning Procedures)
   \end{itemize}}
 
 \subsection{Miscellaneous}
-\cvitem{2016--2017} {Educational Leave (Bildungskarenz) devoted to work on PhD thesis with the working title 'Digital terrain analysis to support field soil survey' }
+\cventry{2016--2017}{Educational Leave (Bildungskarenz)}{}{}{}{devoted to work on PhD thesis with the working title 'Digital terrain analysis to support field soil survey'}
 \cventry{2016--2017}{Lecturer}{Institute of Geography, University of Innsbruck}{Innsbruck}{}{Exercises in Statistics ({\"U}bungen zur Statistik): Introduction to statistics with R for Bachelor's students}
 \cventry{2010--2011}{Student tutor}{University of
 Natural Resources and Life Sciences (BOKU) }{Vienna}{}{Tutoring for students in ArcGIS}
-\cvitem{2016--2017} {Educational Leave (Bildungskarenz) }
 \section{Languages}
 \cvitemwithcomment{German}{Native Language}{ }
 \cvitemwithcomment{English}{Fluent}{ }
@@ -142,7 +121,7 @@ Natural Resources and Life Sciences (BOKU) }{Vienna}{}{Tutoring for students in 
 
 \section{Computer skills}
 \cvdoubleitem{Operating systems}{Windows, Linux (Ubuntu)} {Languages and scripts}{R, Python, Bash}
-\cvdoubleitem{Geographic information systems}{GRASS, SAGA, ARCGIS} {Misc. software} {GIMP, Inkscape, FLO-2D, RAMMS, ENVI-Sarscape}
+\cvdoubleitem{Geographic information systems}{GRASS, SAGA, ARCGIS} {Misc. software} {GIMP, Inkscape, FLO-2D, ENVI-Sarscape,  \LaTeX{} with Texmaker}
 \section{Interests}
 \cvitem{Horticulture}{Participating in a communal gardening project}
 \cvitem{Traveling}{Extensive traveling in Central and South America, Central Asia, Southeast Asia and Madagascar}
@@ -185,7 +164,24 @@ digital soil mapping. -- EGU General Assembly 2014 (28.04.-02.05.2014, Vienna (A
 %\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
 
 \clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Alia Harrison}{IIASA -- Human Resources \\Schlossplatz 1\\A-2361 Laxenburg}
+\date{May 01, 2017}
+\opening{Dear Madam,}
+\closing{Yours faithfully,}
+\enclosure[Attached]{resume and references}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
 
+I am writing to apply for the position of Postdoctoral Research Scholar - Remote Sensing of land cover and land-use, advertised on the web appearance of the IIASA. Currently, I am working on my PhD thesis concerned with digital terrain analysis to support soil survey at the Institute of Geography of the University of Innsbruck, Austria.
+
+Remote sensing and geographic information science have been my area of research ever since getting involved with these topics at the Institute of Applied Geology at the University of Natural Resources and Life Sciences (BOKU), Vienna. There, satellite imagery and its derivatives played an important role in mapping geomorphological hazards and the land-use of vulnerable areas. The multi-temporal analysis of the extent of glacial lakes was vital for assessing  regional geohazards in Tajikistan, together with the application of DINSAR with ENVI-Sarscape to detect mass movements in smaller study areas. The application of remotely sensed data is continued in my research at the Institute of Geography of the University of Innsbruck, mainly in the form of digital elevation information. Here I focus on terrain analysis using Open Source landform classification algorithms and python scripting, as well as applying statistical learning approaches within the statistical computing environment R. Inside the context of digital soil mapping, land-use information persisted to be of relevance, being an essential environmental variable for analysing the spatial distribution of soils.   
+
+The research with regard to the formation and distribution of soils, be it through field survey in South Tyrol or soil modelling in the office, has increased by awareness of the interconnectivity between soil and land-use and consequently strengthened my interest in sustainable agriculture. This is a major reason why I am intrigued by the position at the Ecosystems Services and Management Program. It poses the possibility to advance my research into delineating and mapping spatial units of interest, and at the same time enter a new field of research that I find highly interesting and essential at a personal as well as scientific level.   
+
+I have enclosed a resume and references, and would enjoy discussing this position at your convenience. Should you require any additional material or information, I am happy to supply it. Thank you for your consideration.
+
+\makeletterclosing
 
 %\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
