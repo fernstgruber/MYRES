@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.18)  13 DEC 2017 15:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.24)  14 DEC 2017 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Bewerbung_Lebenslauf_synergis.tex
 (./Bewerbung_Lebenslauf_synergis.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 9 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2013/04/29 v1.5.1 modern curriculum vitae and letter d
 ocument class
@@ -987,101 +987,103 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 84.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 88.
 [2]
 \makecvtitledetailsbox=\box55
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 87.
+(Font)              <10> on input line 91.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 87.
+(Font)              <7> on input line 91.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 87.
+(Font)              <5> on input line 91.
 \makecvtitlepicturebox=\box56
  <IMG_3890_cropped2.jpg, id=61, 729.124pt x 845.1575pt>
 File: IMG_3890_cropped2.jpg Graphic file (type jpg)
 
 <use IMG_3890_cropped2.jpg>
-Package pdftex.def Info: IMG_3890_cropped2.jpg used on input line 87.
+Package pdftex.def Info: IMG_3890_cropped2.jpg used on input line 91.
 (pdftex.def)             Requested size: 64.0pt x 74.17807pt.
 \makecvtitledetailswidth=\skip92
 \makecvtitlepicturewidth=\skip93
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 
  []
 
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 109.
 [3
 
  <./IMG_3890_cropped2.jpg>]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 146.
-
-Overfull \hbox (0.81473pt too wide) in paragraph at lines 154--154
+Overfull \hbox (0.81473pt too wide) in paragraph at lines 157--157
  [][]\T1/lmss/m/n/10.95 (-20) Modellierungs-
  []
 
-No file Bewerbung_Lebenslauf_synergis.bbl.
-[4] [5] <Dipling_seite6von6.pdf, id=80, 596.95016pt x 844.83629pt>
+(./Bewerbung_Lebenslauf_synergis.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [4] [5] <Dipling_seite6von6.pdf, id=80, 596.95016pt x 844.83629pt>
 File: Dipling_seite6von6.pdf Graphic file (type pdf)
 
 <use Dipling_seite6von6.pdf>
-Package pdftex.def Info: Dipling_seite6von6.pdf used on input line 200.
+Package pdftex.def Info: Dipling_seite6von6.pdf used on input line 202.
 (pdftex.def)             Requested size: 596.94872pt x 844.83423pt.
 File: Dipling_seite6von6.pdf Graphic file (type pdf)
  <use Dipling_seite6von6.pdf>
-Package pdftex.def Info: Dipling_seite6von6.pdf used on input line 200.
+Package pdftex.def Info: Dipling_seite6von6.pdf used on input line 202.
 (pdftex.def)             Requested size: 596.94872pt x 844.83423pt.
 
 <Dipling_seite6von6.pdf, id=83, page=1, 596.95016pt x 844.83629pt>
 File: Dipling_seite6von6.pdf Graphic file (type pdf)
 
 <use Dipling_seite6von6.pdf, page 1>
-Package pdftex.def Info: Dipling_seite6von6.pdf, page1 used on input line 200.
+Package pdftex.def Info: Dipling_seite6von6.pdf, page1 used on input line 202.
 (pdftex.def)             Requested size: 596.94872pt x 844.83423pt.
 File: Dipling_seite6von6.pdf Graphic file (type pdf)
  <use Dipling_seite6von6.pdf, page 1>
-Package pdftex.def Info: Dipling_seite6von6.pdf, page1 used on input line 200.
+Package pdftex.def Info: Dipling_seite6von6.pdf, page1 used on input line 202.
 (pdftex.def)             Requested size: 597.68651pt x 845.8784pt.
 File: Dipling_seite6von6.pdf Graphic file (type pdf)
 
 <use Dipling_seite6von6.pdf, page 1>
-Package pdftex.def Info: Dipling_seite6von6.pdf, page1 used on input line 200.
+Package pdftex.def Info: Dipling_seite6von6.pdf, page1 used on input line 202.
 (pdftex.def)             Requested size: 597.68651pt x 845.8784pt.
 File: Dipling_seite6von6.pdf Graphic file (type pdf)
  <use Dipling_seite6von6.pdf, page 1>
-Package pdftex.def Info: Dipling_seite6von6.pdf, page1 used on input line 200.
+Package pdftex.def Info: Dipling_seite6von6.pdf, page1 used on input line 202.
 (pdftex.def)             Requested size: 597.68651pt x 845.8784pt.
 File: Dipling_seite6von6.pdf Graphic file (type pdf)
 
 <use Dipling_seite6von6.pdf, page 1>
-Package pdftex.def Info: Dipling_seite6von6.pdf, page1 used on input line 200.
+Package pdftex.def Info: Dipling_seite6von6.pdf, page1 used on input line 202.
 (pdftex.def)             Requested size: 597.68651pt x 845.8784pt.
  [6
 
  <./Dipling_seite6von6.pdf>]
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
 (./Bewerbung_Lebenslauf_synergis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
 Package rerunfilecheck Info: File `Bewerbung_Lebenslauf_synergis.out' has not c
 hanged.
 (rerunfilecheck)             Checksum: 87E4287352587FEA501D7952C94FA91A;1304.
  ) 
 Here is how much of TeX's memory you used:
- 25602 strings out of 494935
- 455898 string characters out of 6178122
- 539258 words of memory out of 5000000
- 28291 multiletter control sequences out of 15000+600000
- 72118 words of font info for 98 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 25600 strings out of 493304
+ 455926 string characters out of 6139871
+ 543123 words of memory out of 5000000
+ 28517 multiletter control sequences out of 15000+600000
+ 71916 words of font info for 96 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
  70i,18n,59p,10427b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/s
@@ -1089,7 +1091,7 @@ hare/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/marvosym/marvosym.pfb>
-Output written on Bewerbung_Lebenslauf_synergis.pdf (6 pages, 932371 bytes).
+Output written on Bewerbung_Lebenslauf_synergis.pdf (6 pages, 934326 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams
