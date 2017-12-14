@@ -1,0 +1,44 @@
+Erste Erfahrungen mit GIS machte ich im Rahmen meines Studiums der Kulturtechnik und Wasserwirtschaft an der Universit\"at f\"ur Bodenkultur (BOKU, Wien), wo ich  den vertiefenden Wahlfachblock \emph{Geodatenmanagement}  absolvierte, der auch eines meiner beiden Diplompr\"ufungsf\"acher darstellte. Als studentischer Mitarbeiter am Institut f\"ur Angewandte Geologie (IAG) arbeitete ich am Projekt \emph{Remote Geohazards Assessment in Tajikistan (TajHaz)} mit, bei dem mit GIS und Fernerkundungsmethoden ein Ereignis- und Seenkataster f\"ur abgelegene Regionen in Tajikistan erstellt wurde. Weiters war ich w\"ahrend meiner Studienzeit als ArcGIS-Tutor im Rahmen der Lehrveranstaltung \emph{Einf\"uhrung in GIS} angestellt. Nach meiner Diplomarbeit am Institut f\"ur Angewandte Geologie, welche sich mit der Modellierung von Bergsturzseeausbr\"uchen  besch\"aftigte, war ich weiterhin als Projektmitarbeiter  im Rahmen des Nachfolgeprojekts \emph{Poverty Alleviation through Mitigation of Integrated High-Mountain Risk (PAMIR)} am IAG angestellt. In diesem wurden regionale Naturgefahrenhinweiskarten mithilfe einer Kombination aus automatisierter sowie expertenbasierter Kartierung und Klassifikation erstellt.
+
+
+Im Sommer 2013 wechselte ich als Projektmitarbeiter des Projekts \emph{Reliefklassifizierung aus ALS Daten als Grundlage f\"ur die Regionalisierung von Bodendaten (ReBo)} ans Institut f\"ur Geographie nach Innsbruck. Auch hier geh\"ort   die Arbeit mit Geoinformationssystemen zu meinen t\"aglichen Aufgaben, wobei haupts\"achlich quelloffene GIS, vor allem GRASS GIS und Quantum GIS, aber auch SAGA GIS, verwendet werden. Statistische Analysen der Geodaten sowie darauf basierendes statistisches Lernen werden mit durchgef\"uhrt. Python Scripts verwemde ich zur Automatisierung von Rechenabl\"aufen in GRASS und SAGA GIS. In Innsbruck begann ich mich intensiv mit maschinellem Lernen auseinanderzusetzen, etwa zur r\"aumlichen Modellierung von Gel\"andeformen  oder Bodenausgangsmaterial zur Unterst\"utzung der klassischen Bodenkartierung. 
+
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): 
+\renewcommand{\refname}{Publikationen}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications3}   
+\subsection{Peer-reviewed journal articles and book chapters}
+\cvitem{[1]}{Gruber, F.E., Baruck, J., Geitner, C. (2017):  Algorithms vs. surveyors: a comparison of automated landform delineations and surveyed topographic positions from soil mapping in an Alpine environment. Geoderma 308, 9-25.}
+\cvitem{[2]}{Geitner, C., Baruck, J., Freppaz, M., Godone, D., Grashey-Jansen, S., Gruber, F.E., Heinrich, K., Papritz, A., Simon, A., Stanchi, S., Traidl, R., von Albertini, N., Vrscaj, B. (2017). Soil and land use in the Alps -- Challenges and examples of soil survey and soil data use to support sustainable development. In: Pereira, P., Brevik, E.C., Munoz-Rojas, M., Miller, B. (Eds.), Soil mapping and process modelling for sustainable land use management. Elsevier, Amsterdam. 221-292}
+\cvitem{[3]}{Baruck, J., Nestroy, O., Sartori, G., Baize, D., Traidl, R., Vrisaj, B., Br{\"a}m, E., Gruber, F.E., Heinrich, K., Geitner, C. (2016): Soil classification
+and mapping in the Alps: The current state and future challenges .
+Geoderma 264, Part B, 312--331.}
+\cvitem{[4]}{Zieher, T., Gruber, F.E.; Rutzinger, M.; Mei{\ss}l, G.; Geitner, C.; Perzl, F. (2016): Data
+requirements for the assessment of shallow landslide susceptibility using logistic regression. In: Proceedings of the 12th International Symposium on Landslides - Landslides and Engineered Slopes. Experience, Theory and Practice. Napoli, Italy. CRC Press, S. 2139-2146.}
+\cvitem{[5]} {Gruber, F.E., Mergili, M. (2013): Regional-scale analysis of high-mountain multi-hazard and risk indicators in the Pamir (Tajikistan) with GRASS GIS. Natural Hazards and Earth System Sciences 13: 2779-2796.}
+\cvitem{[6]} {Schneider, J.F., Gruber, F., Mergili, M. (2013): Impact of large landslides, mitigation measures. In: Genevois, R., Prestininzi, A. (eds.): International Conference on Vajont - 1963-2013 - Thoughts and analyses after 50 years since the catastrophic landslide. Proceedings of the International Conference Vajont 1963-2013, Padua, Italy, October 8-10, 2013. Italian Journal of Engineering Geology and Environment - Book: 73-84.}
+\cvitem{[7]} {Schneider, J.F., Gruber, F.E., Mergili, M. (2013): Recent Cases and Geomorphic Evidence of Landslide-Dammed Lakes and Related Hazards in the Mountains of Central Asia. In: Margottini, C., Canuti, P., Sassa, K. (eds.): Landslide Science and Practice: Volume 6: Risk Assessment, Management and Mitigation (Proceedings of the 2nd World Landslide Forum, FAO Headquarters Rome, Italy, October 3-9, 2011): 57-64. Springer, Heidelberg, Berlin, New York}
+\subsection{Selected conference abstracts and presentations}
+\cvitem{[8]}{Gruber, F.E., Baruck, J. und C. Geitner (2016): Joint analysis of parent material and topography to support soil survey -- a case study from South Tyrol. -- Jahrestagung
+der {\"O}sterreichischen Forschungsgruppe f{\"u}r Geomorphologie und Umweltwandel und der Schweizerischen Gesellschaft f{\"u}r Geomorphologie 2016, Innsbruck (23.09.2016).}
+\cvitem{[9]}{Gruber F.E., Baruck, J., Simon, A. und C. Geitner (2015): Reliefklassifizierung f{\"u}r die
+Erstellung von Bodenkarten anhand von geomorphons (GRASS GIS).--  Posterausstellung im Rahmen der Jahrestagung der Deutschen Bodenkundlichen Gesellschaft, M{\"u}nchen 2015, AG Digital Soil Mapping (09.09.2015). }
+\cvitem{[10]}{Gruber, F., Zieher, T., Rutzinger, M. und C. Geitner (2015): Geomorphons and structure metrics for the characterization of geomorphological landscape regions in Austria. EGU General Assembly 2015 (EGU 2015), Wien
+(16.04.2015).  }
+\cvitem{[11]}{Gruber, F.E., Baruck, J., Rutzinger, M. and C. Geitner (2014): Landform segmentation for
+digital soil mapping. -- EGU General Assembly 2014 (28.04.-02.05.2014, Vienna (Austria)), Geophysical Research Abstracts Vol. 16, EGU2014-5644.  }
+                   % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
