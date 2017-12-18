@@ -7,6 +7,7 @@ Erste Erfahrungen mit GIS machte ich im Rahmen meines Studiums der Kulturtechnik
 
 Im Sommer 2013 wechselte ich als Projektmitarbeiter des Projekts \emph{Reliefklassifizierung aus ALS Daten als Grundlage f\"ur die Regionalisierung von Bodendaten (ReBo)} ans Institut f\"ur Geographie nach Innsbruck. Auch hier geh\"ort   die Arbeit mit Geoinformationssystemen zu meinen t\"aglichen Aufgaben, wobei haupts\"achlich quelloffene GIS, vor allem GRASS GIS und Quantum GIS, aber auch SAGA GIS, verwendet werden. Statistische Analysen der Geodaten sowie darauf basierendes statistisches Lernen werden mit durchgef\"uhrt. Python Scripts verwemde ich zur Automatisierung von Rechenabl\"aufen in GRASS und SAGA GIS. In Innsbruck begann ich mich intensiv mit maschinellem Lernen auseinanderzusetzen, etwa zur r\"aumlichen Modellierung von Gel\"andeformen  oder Bodenausgangsmaterial zur Unterst\"utzung der klassischen Bodenkartierung. 
 
+ Zudem besch\"aftigte ich mich intensiv mit maschinellem Lernen, welches ich auf r\"aumliche Daten anwende um etwa Gel\"andeformen oder Bodenausgangssubtstrat zu modellieren sowie ma{\ss}gebende Gel\"andeparameter zu erkennen. 
 
 
 % Publications from a BibTeX file without multibib
