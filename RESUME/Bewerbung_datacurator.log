@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2018.1.26)  12 FEB 2018 15:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.24)  13 FEB 2018 08:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Bewerbung_datacurator.tex
 (./Bewerbung_datacurator.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 9 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2013/04/29 v1.5.1 modern curriculum vitae and letter d
 ocument class
@@ -1033,29 +1033,29 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip91
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 65.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 65.
+Package hyperref Info: Option `breaklinks' set `true' on input line 68.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 68.
 
 (./Bewerbung_datacurator.aux)
 \openout1 = `Bewerbung_datacurator.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 68.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1087,7 +1087,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 65.
+LaTeX Info: Redefining \microtypecontext on input line 68.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1102,7 +1102,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 65.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 68.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1113,14 +1113,14 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 65.
+LaTeX Info: Redefining \selectfont on input line 68.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 65.
+(lastpage)             ! on input line 68.
 \AtBeginShipoutBox=\box54
  ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
@@ -1157,7 +1157,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 65.
+Package hyperref Info: Link coloring OFF on input line 68.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1166,9 +1166,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count162
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 (./Bewerbung_datacurator.out) (./Bewerbung_datacurator.out)
 \@outlinefile=\write4
@@ -1178,286 +1178,289 @@ LaTeX Info: Redefining \nameref on input line 65.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 78.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 75.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 78.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 75.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 78.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 75.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 78.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 75.
+(Font)              <10.95> on input line 78.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 75.
+(Font)              <8> on input line 78.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 75.
+(Font)              <6> on input line 78.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 77.
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-
- []
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 89.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 89.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 89.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 89.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 89.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 89.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-\makecvtitledetailsbox=\box55
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 91.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 91.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 91.
-\makecvtitlepicturebox=\box56
-
-<fabian_bewerbungsfoto.jpeg, id=66, 2942.995pt x 3823.28375pt>
-File: fabian_bewerbungsfoto.jpeg Graphic file (type jpg)
-
-<use fabian_bewerbungsfoto.jpeg>
-Package pdftex.def Info: fabian_bewerbungsfoto.jpeg used on input line 91.
-(pdftex.def)             Requested size: 64.0pt x 83.13242pt.
-\makecvtitledetailswidth=\skip92
-\makecvtitlepicturewidth=\skip93
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 80.
 
 Underfull \hbox (badness 10000) in paragraph at lines 91--91
 
  []
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 92.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\makecvtitledetailsbox=\box55
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 94.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 94.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 94.
+\makecvtitlepicturebox=\box56
+
+<fabian_bewerbungsfoto.jpeg, id=66, 2942.995pt x 3823.28375pt>
+File: fabian_bewerbungsfoto.jpeg Graphic file (type jpg)
+
+<use fabian_bewerbungsfoto.jpeg>
+Package pdftex.def Info: fabian_bewerbungsfoto.jpeg used on input line 94.
+(pdftex.def)             Requested size: 64.0pt x 83.13242pt.
+\makecvtitledetailswidth=\skip92
+\makecvtitlepicturewidth=\skip93
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 97.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 97.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 98.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 98.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 98.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 112.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 115.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 142.
 [2
 
  <./fabian_bewerbungsfoto.jpeg>]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 160.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 160.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 160.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 173.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 182.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 182.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 182.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 182.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 182.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 182.
+ [3] (./Bewerbung_datacurator.bbl
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 1.
 
-No file Bewerbung_datacurator.bbl.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 181.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 181.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 181.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 182.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 182.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 182.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 187.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 187.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 187.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 187.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 187.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 187.
-[3]
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 193.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 193.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 193.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 212.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 212.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 212.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 212.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 212.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 212.
- [4]
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 213.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 213.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 213.
 
-Overfull \hbox (57.75911pt too wide) in paragraph at lines 216--251
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+)
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 186.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 186.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 186.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 197.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 197.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 197.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 205.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 205.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 205.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 205.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 205.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 205.
+ [4
+
+]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 218.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 218.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 218.
+
+Overfull \hbox (57.75911pt too wide) in paragraph at lines 221--256
 [][] 
  []
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 252.
-[5
-
-] <DP_6vonv.pdf, id=90, 596.95016pt x 844.83629pt>
+(babel)             in language  on input line 257.
+[5] <DP_6vonv.pdf, id=90, 596.95016pt x 844.83629pt>
 File: DP_6vonv.pdf Graphic file (type pdf)
  <use DP_6vonv.pdf>
-Package pdftex.def Info: DP_6vonv.pdf used on input line 253.
+Package pdftex.def Info: DP_6vonv.pdf used on input line 258.
 (pdftex.def)             Requested size: 596.94872pt x 844.83423pt.
 File: DP_6vonv.pdf Graphic file (type pdf)
 
 <use DP_6vonv.pdf>
-Package pdftex.def Info: DP_6vonv.pdf used on input line 253.
+Package pdftex.def Info: DP_6vonv.pdf used on input line 258.
 (pdftex.def)             Requested size: 596.94872pt x 844.83423pt.
  <DP_6vonv.pdf, id=93, page=1, 596.95016pt x 844.83629pt>
 File: DP_6vonv.pdf Graphic file (type pdf)
 
 <use DP_6vonv.pdf, page 1>
-Package pdftex.def Info: DP_6vonv.pdf, page1 used on input line 253.
+Package pdftex.def Info: DP_6vonv.pdf, page1 used on input line 258.
 (pdftex.def)             Requested size: 596.94872pt x 844.83423pt.
 File: DP_6vonv.pdf Graphic file (type pdf)
  <use DP_6vonv.pdf, page 1>
-Package pdftex.def Info: DP_6vonv.pdf, page1 used on input line 253.
+Package pdftex.def Info: DP_6vonv.pdf, page1 used on input line 258.
 (pdftex.def)             Requested size: 597.68651pt x 845.8784pt.
 File: DP_6vonv.pdf Graphic file (type pdf)
 
 <use DP_6vonv.pdf, page 1>
-Package pdftex.def Info: DP_6vonv.pdf, page1 used on input line 253.
+Package pdftex.def Info: DP_6vonv.pdf, page1 used on input line 258.
 (pdftex.def)             Requested size: 597.68651pt x 845.8784pt.
 File: DP_6vonv.pdf Graphic file (type pdf)
  <use DP_6vonv.pdf, page 1>
-Package pdftex.def Info: DP_6vonv.pdf, page1 used on input line 253.
+Package pdftex.def Info: DP_6vonv.pdf, page1 used on input line 258.
 (pdftex.def)             Requested size: 597.68651pt x 845.8784pt.
 File: DP_6vonv.pdf Graphic file (type pdf)
 
 <use DP_6vonv.pdf, page 1>
-Package pdftex.def Info: DP_6vonv.pdf, page1 used on input line 253.
+Package pdftex.def Info: DP_6vonv.pdf, page1 used on input line 258.
 (pdftex.def)             Requested size: 597.68651pt x 845.8784pt.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 258.
  [6
 
  <./DP_6vonv.pdf>]
 
 AED: lastpage setting LastPage
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 255.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+(babel)             in language  on input line 260.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
 (./Bewerbung_datacurator.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
 Package rerunfilecheck Info: File `Bewerbung_datacurator.out' has not changed.
 (rerunfilecheck)             Checksum: C46A5BFF5BE45429DE02CCFB5D5378AD;1620.
  ) 
 Here is how much of TeX's memory you used:
- 26137 strings out of 494935
- 463297 string characters out of 6178122
- 552891 words of memory out of 5000000
- 28820 multiletter control sequences out of 15000+600000
+ 26139 strings out of 493304
+ 463349 string characters out of 6139871
+ 554770 words of memory out of 5000000
+ 29046 multiletter control sequences out of 15000+600000
  71174 words of font info for 89 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  70i,18n,59p,10419b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/sh
@@ -1466,7 +1469,7 @@ are/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public
 xmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmsso10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym
 .pfb>
-Output written on Bewerbung_datacurator.pdf (6 pages, 3444329 bytes).
+Output written on Bewerbung_datacurator.pdf (6 pages, 3444408 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
  122 compressed objects within 2 object streams

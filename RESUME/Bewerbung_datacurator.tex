@@ -11,6 +11,8 @@
 \usepackage{lastpage}
 \usepackage[german]{babel} 
 \usepackage{fancyhdr}
+%\renewcommand{\refname}{Articles}
+\addto\captionsgerman{\renewcommand\refname{Publications}}
 
 \fancyfoot[C]{ \thepage\ / 6}
 \usepackage{pdfpages}
@@ -55,6 +57,7 @@
 \makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
 %   to redefine the bibliography heading string ("Publications")
 %\renewcommand{\refname}{Articles}
+%\addto\captionsenglish{\renewcommand\refname{Publications}}
 
 % bibliography with mutiple entries
 %\usepackage{multibib}
@@ -68,7 +71,7 @@
 %-----       letter       ---------------------------------------------------------
 % recipient data
 \recipient{Dr. Peter Arndorfer}{Austrian Centre for Digital Humanities \\Austrian Academy of Sciences\\Sonnenfelsgasse 19/8\\A-1010 Vienna}
-\date{February 12, 2018}
+\date{February 13, 2018}
 \opening{\textbf{Subject: Application as Data Curator} \\[0.5cm]     Dear Dr. Arndorfer,}
 \closing{Best regards,}
 \enclosure[Attached]{Resume, List of publications, References and Diploma Certificate}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
@@ -76,7 +79,7 @@
 \justify
 After several years as a research assistant at the Institute of Geography of the University of Innsbruck, I am currently writing my PhD Thesis and relocating to Vienna. The advertised position as data curator  appeals to me in that it presents the possibility to continue working in my main field of expertise, geographic information systems and geodata management. Additionally, due to the part time nature of the position, it would allow me to finish my thesis with the title \emph{Terrain analysis to support field soil survey}.
 
-Geographic information systems and geodata management have played a major part in my work as a research assistant, both at the University of Natural Resources and Life Sciences and the University of Innsbruck. After beginning with ArcGIS, I have now specialised on the use of Open Source systems such as GRASS, SAGA and QGIS, the latter mainly for visualising geospatial data, especially in vector format. Applying these Open Source GIS has also given me profound insight into the functioning of GIS. While scripting with Python allows me to be more efficient in computing with and combining these GIS, the use of R, a free software environment for statistical computing and graphics, has improved my  abilities to analyse geospatial data. Researching spatial data in South Tyrol has also shown me the great possibilities, but also limitations, of the use of historical maps such as the Franziscean Cadastre in research projects.  
+Geographic information systems and geodata management have played a major part in my work as a research assistant, both at the University of Natural Resources and Life Sciences and the University of Innsbruck. After beginning with ArcGIS, I have now specialised on the use of Open Source systems such as GRASS, SAGA and QGIS, the latter mainly for visualising geospatial data, especially in vector format. Applying these Open Source GIS has also given me profound insight into the functioning of GIS. While scripting with Python allows me to be more efficient in computing with, and combining, these different GIS, the use of R, a free software environment for statistical computing and graphics, has improved my  abilities to analyse geospatial data. Researching available spatial data in South Tyrol has shown me the great possibilities, but also limitations, of the use of historical maps such as the Franziscean Cadastre in research projects.  
 
 In addition to my experience with GIS and the management of spatial data from different sources, I am also used to, and enjoy, working in teams made up of experts from different fields of expertise. I have enclosed a resume and references, and would enjoy discussing this position at your
 convenience. Should you require any additional material or information, I am happy to supply it.
@@ -176,9 +179,10 @@ Baccalaureate (IB)}
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
 \nocite{*}
 \bibliographystyle{plain}
+\clearpage
 \bibliography{publications3}
 %\clearpage  
-\section{Publications}   
+ 
 \subsection{Peer-reviewed journal articles and book chapters}
 \cvitem{[1]}{Gruber, F.E., Baruck, J., Geitner, C. (2017):  Algorithms vs. surveyors: a comparison of automated landform delineations and surveyed topographic positions from soil mapping in an Alpine environment. Geoderma 308, 9-25.}
 \cvitem{[2]}{Geitner, C., Baruck, J., Freppaz, M., Godone, D., Grashey-Jansen, S., Gruber, F.E., Heinrich, K., Papritz, A., Simon, A., Stanchi, S., Traidl, R., von Albertini, N., Vrscaj, B. (2017). Soil and land use in the Alps -- Challenges and examples of soil survey and soil data use to support sustainable development. In: Pereira, P., Brevik, E.C., Munoz-Rojas, M., Miller, B. (Eds.), Soil mapping and process modelling for sustainable land use management. Elsevier, Amsterdam. 221-292}
@@ -209,7 +213,8 @@ digital soil mapping. -- EGU General Assembly 2014 (28.04.-02.05.2014, Vienna (A
 %\nocitemisc{misc1,misc2,misc3}
 %\bibliographystylemisc{plain}
 %\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
-\clearpage
+%\clearpage
+\vspace{20mm}
 \section{References}
 
 
