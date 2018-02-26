@@ -1,0 +1,187 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{twentysecondcv} % a4paper for A4
+\usepackage{ClearSans}
+\usepackage[authoryear]{natbib}
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{Foto_FabianGruber.jpeg} % Profile picture
+
+\cvname{Fabian Gruber} % Your name
+\cvjobtitle{Junior Researcher} % Job title/career
+
+\cvdate{22 Juni 1982} % Date of birth
+\cvaddress{Anna-Stainer-Knittel-Weg 3/5/4\newline
+6020 Innsbruck\newline
+Austria} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+43 650 258 75 21} % Phone number
+\cvsite{} % Personal website
+\cvmail{Fabian.Gruber@uibk.ac.at} % Email address
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{I am motivated, flexible, curious, attentive, versatile, thoughtful, consequent, open-minded, patient, adaptive, reflective, of integrity and a team-player.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+
+\skills{{Spanish/1.5},{English/5.5},{German/6.0},{\LaTeX \,\,\& \textsc{Bib}\TeX /3.8},{Adobe Photoshop/4.5},
+{Adobe Illustrator/5.4},{Arc GIS/4.1},{SAGA GIS/5.1},{GRASS GIS/5.5},{Python programming language/4.2},{R programming language/5.8}}
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\emph{Geomorphology:} shallow and deep-seated landslides, rock fall\\[0.3em]
+\emph{Palaeoclimatology:} dynamics of forest- and treeline, dendrochronology\\[0.3em]
+\emph{Remote sensing:} monitoring of slope deformations, terrestrial laser scanning\\[0.3em]
+\emph{Computational Geography:} slope stability modelling, point cloud processing\\
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twentymid} % Environment for a list with descriptions
+	\twentyitemmid{1991 -- 1996}{Primary school}{Timelkam, Austria}
+	\twentyitemmid{1996 -- 2000}{Secondary school}{V{\"o}cklabruck, Austria}
+	\twentyitemmid{2000 -- 2006}{College of Industrial Engineering}{V{\"o}cklabruck, Austria}
+	\twentyitemmid{2006 -- 2009}{BSc in Geography}{University of Innsbruck, Austria}
+	\twentyitemmid{2009 -- 2013}{MSc in Geography}{University of Innsbruck, Austria}
+	\twentyitemmid{2013 -- 2017}{PhD in Geography}{University of Innsbruck, Austria}
+\end{twentymid}
+\begin{twenty}
+	\twentyitem{since 2016}{Junior researcher}{Institute for Interdisciplinary Mountain Research,}{Austrian Academy of Science}
+\end{twenty}
+
+\vspace*{0.7em}
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE AND TEACHING
+%----------------------------------------------------------------------------------------
+
+\section{Experience \& Teaching}
+
+\begin{twentyfar}
+	\twentyitemfar{08 2004 -- 09 2004}{Practical training}{Volvo Business Service, Gothenburg, Sweden}
+	\twentyitemfar{10 2005 -- 09 2006}{Civilian service}{Lebenshilfe, St. Florian, Austria}
+	\twentyitemfar{07 2009 -- 08 2009}{Practical training}{Austrian Federal Forests, Hopfgarten, Austria}
+	\twentyitemfar{since 2009}{Freelancer, graphic designer}{Kompass GmbH, Innsbruck, Austria}
+\end{twentyfar}
+%\vspace*{-0.7\baselineskip}
+\begin{twentyfartwo}
+	\twentyitemfartwo{10 2011 -- 02 2012}{Practical training}{Austrian Research Centre for Forests}{Innsbruck, Austria}
+\end{twentyfartwo}
+\begin{twentymid} % Environment for a list with descriptions
+	\twentyitemmid{2015 -- 2017}{GRASS GIS}{Morphometry, automatation and scripting, modelling}
+	\twentyitemmid{2016 -- 2017}{Introduction to R}{R programming language, statistics}
+\end{twentymid}
+
+\vspace*{1em}
+
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Selected publications}
+
+
+\let\oldsection=\section
+\renewcommand{\section}[2]{}%
+{\footnotesize
+\nocite{*}
+\bibliography{publ_zieher}
+\bibliographystyle{thesis-harv}
+}
+\let\section=\oldsection
+
+\vspace*{1.3em}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\begin{twentyshort} % Environment for a short list with no descriptions
+%	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+%	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+%	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 REFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{References}
+
+\begin{references} % Environment for a list with descriptions
+	\refitem{Martin Rutzinger}{+43 507 49480}{Institute for Interdisciplinary Mountain Research,}{martin.rutzinger@oeaw.ac.at}{Austrian Academy of Science}
+	\refitem{Clemens Geitner}{+43 507 54037}{Institute of Geography,}{clemens.geitner@uibk.ac.at}{University of Innsbruck}
+%	\refitem{Marc Adams}{+43 512 573933 5177}{Department of Natural Hazards,}%{marc.adams@bfw.gv.at}{Austrian Research Centre for Forests}
+\end{references}
+
+\vspace*{0.7em}
+
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Personal interests}
+
+\emph{Sports: } Skitouring, Snowboarding, Hiking, Badminton, Cycling\\
+\emph{Music: } Guitar, Saxophone, Cajon\\
+\emph{Photography: } time lapse, panorama, portrait, food staging
+
+\end{document} 

@@ -1,0 +1,35 @@
+\begin{thebibliography}{4}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Geitner et~al.(2017)Geitner, Baruck, Freppaz, Godone, Grashey-Jansen,
+  Gruber, Heinrich, Papritz, Simon, Stanchi, Traidl, von Albertini, and
+  Vrscaj}]{Geitner2017}
+Geitner, C., Baruck, J., Freppaz, M., Godone, D., Grashey-Jansen, S., Gruber,
+  F.~E., Heinrich, K., Papritz, A., Simon, A., Stanchi, S., Traidl, R., von
+  Albertini, N., Vrscaj, B., 2017. {Chapter 8 - Soil and Land Use in the Alps -
+  Challenges and Examples of Soil-Survey and Soil-Data Use to Support
+  Sustainable Development}. In: Pereira, P., Brevik, E.~C., Munoz-Rojas, M.,
+  Miller, B.~A. (Eds.), Soil Mapping and Process Modeling for Sustainable Land
+  Use Management. Elsevier, pp. 221 -- 292.
+
+\bibitem[{Gruber et~al.(2017)Gruber, Baruck, and Geitner}]{Gruber2017}
+Gruber, F.~E., Baruck, J., Geitner, C., 2017. Algorithms vs. surveyors: A
+  comparison of automated landform delineations and surveyed topographic
+  positions from soil mapping in an alpine environment. Geoderma 308, 9 -- 25.
+
+\bibitem[{Gruber and Mergili(2013)}]{Gruber2013}
+Gruber, F.~E., Mergili, M., 2013. Regional-scale analysis of high-mountain
+  multi-hazard and risk indicators in the pamir (tajikistan) with grass gis.
+  Natural Hazards and Earth System Sciences 13~(11), 2779--2796.
+
+\bibitem[{Zieher et~al.(2016)Zieher, Perzl, Gruber, Rutzinger, Mei{\ss}l, and
+  Geitner}]{Zieher2016}
+Zieher, T., Perzl, F., Gruber, F., Rutzinger, M., Mei{\ss}l, G., Geitner, C.,
+  2016. {Data requirements for the assessment of shallow landslide
+  susceptibility using logistic regression}. In: Landslides and Engineered
+  Slopes. Experience, Theory and Practice. CRC Press, pp. 2139--2146.
+
+\end{thebibliography}
