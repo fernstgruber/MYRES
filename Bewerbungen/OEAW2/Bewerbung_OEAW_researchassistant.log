@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.24)  27 FEB 2018 10:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.24)  2 MAR 2018 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1200,7 +1200,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 81.
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 
  []
 
@@ -1213,28 +1213,28 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
 (./Bewerbung_OEAW_researchassistant.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `Bewerbung_OEAW_researchassistant.out' has no
 t changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25605 strings out of 493304
- 456630 string characters out of 6139871
- 539270 words of memory out of 5000000
+ 25615 strings out of 493304
+ 456742 string characters out of 6139871
+ 541270 words of memory out of 5000000
  28602 multiletter control sequences out of 15000+600000
- 41300 words of font info for 51 fonts, out of 8000000 for 9000
+ 41805 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  70i,11n,59p,10430b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/marvosym/marvosym.pfb>
-Output written on Bewerbung_OEAW_researchassistant.pdf (1 page, 79914 bytes).
+Output written on Bewerbung_OEAW_researchassistant.pdf (1 page, 83189 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
