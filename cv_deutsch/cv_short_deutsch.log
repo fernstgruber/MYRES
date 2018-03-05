@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.24)  2 MAR 2018 08:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.24)  5 MAR 2018 09:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -793,13 +793,13 @@ LaTeX Font Warning: Font shape `T1/ClearSans-LF/m/it' undefined
 (Font)              using `T1/ClearSans-LF/m/n' instead on input line 80.
 
 
-Overfull \hbox (4.4021pt too wide) in paragraph at lines 80--87
+Overfull \hbox (4.4021pt too wide) in paragraph at lines 80--91
 \T1/ClearSans-LF/m/it/10 Geoin-for-matik: Ar-cGIS & Open Source GIS (GRASS, SAG
 A, QGIS, GDAL/OGR) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--87
+Underfull \hbox (badness 10000) in paragraph at lines 80--91
 
  []
 
@@ -837,7 +837,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  16123 strings out of 493304
  279605 string characters out of 6139871
- 368862 words of memory out of 5000000
+ 368902 words of memory out of 5000000
  19277 multiletter control sequences out of 15000+600000
  9432 words of font info for 22 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -849,7 +849,7 @@ ype1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super
 share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb>
-Output written on cv_short_deutsch.pdf (1 page, 2482086 bytes).
+Output written on cv_short_deutsch.pdf (1 page, 2482126 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
