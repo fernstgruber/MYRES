@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{twentysecondcv} % a4paper for A4
+\usepackage{ClearSans}
+\usepackage[authoryear]{natbib}
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{Foto_FabianGruber.jpeg} % Profile picture
+
+\cvname{Fabian Gruber} % Your name
+\cvjobtitle{Research assistant} % Job title/career
+
+\cvdate{22 June 1982} % Date of birth
+\cvaddress{Anna-Stainer-Knittel-Weg 3/5/4\newline
+6020 Innsbruck\newline
+Austria} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+43 650 258 75 21} % Phone number
+\cvsite{} % Personal website
+\cvmail{Fabian.Gruber@uibk.ac.at} % Email address
+%\cvmail{fabianernstgruber@gmail.com}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+
+\skills{{Spanish \& French/3},{English/5.7},{German/5.8},{\LaTeX \,\,\& \textsc{Bib}\TeX /3.8},{GIMP and Inkscape/3.5},{MS- \& libreOffice/5},{LINUX (Ubuntu)/4.5},
+{Scientific writing/5.4},{Arc GIS/4.5},{QGIS/4.5},{GRASS GIS/5.7},{Python programming language/3.0},{R programming language/5.0}}
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Areas of expertise}
+
+\emph{Geographic information science:} ArcGIS \& Open Source GIS (GRASS, SAGA, \hspace*{14.5em} QGIS, GDAL/OGR)\\[0.3em]
+\emph{Remote Sensing:} Natural hazard mapping, automated imagery classification, \\
+\hspace*{7.5em} accuracy assessment, geodata management \\[0.3em]
+\emph{Data analysis:} Descriptive statistics und data visualisation with R\\[0.3em]
+\emph{Statistical models:} Machine Learning and (logistic) regression with R\\[0.3em]
+%\emph{Physically-based models:}         BREACH, FLO-2D, RAMMS, DAN3D\\[0.3em]
+\emph{Soil science:} Digital soil mapping, soil function evaluation,  soil classification\\[0.3em]
+\emph{Geology:} Soil parent material mapping, geohydrology\\[0.3em]
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE AND TEACHING
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twentymid}
+	\twentyitemmid{2013 -- 2018}{Research Assistant}{Institute of Geography, University of Innsbruck} 
+	\twentyitemmid{2016 -- 2017}{Lecturer}{Statistics with R, University of Innsbruck}
+	\twentyitemmid{2011 -- 2013}{Research Assistant}{Institute of Applied Geology, BOKU Vienna}
+	\twentyitemmid{2009 -- 2010}{Student tutor}{Introduction to GIS, BOKU Vienna}
+	\twentyitemmid{2009 -- 2010}{Project assistant}{Institute of Applied Geology, BOKU Vienna}
+\end{twentymid}
+
+
+\vspace*{1em}
+
+
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twentymid} % Environment for a list with descriptions
+	\twentyitemmid{2013 -- }{PhD student in Geography}{University of Innsbruck}
+	\twentyitemmid{2002 -- 2011}{Diploma Study of Environmental Engineering \& }{BOKU Vienna}
+	\twentyitemmid{}{Water Management}{}
+	\twentyitemmid{2001 -- 2002}{Civilian Service}{Arbeitersamariterbund, Linz}
+	\twentyitemmid{1993 -- 2001}{High school (International Baccalaureate)}{Linz International School}
+	\twentyitemmid{1991 -- 1993}{Elementary School}{Linz}
+	\twentyitemmid{1989 -- 1991}{Elementary School}{Pittsburgh, PA, USA}
+\end{twentymid}
+
+\vspace*{0.7em}
+
+
+%----------------------------------------------------------------------------------------
+%	 REFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{References}
+
+\begin{references} % Environment for a list with descriptions
+	\refitem{Clemens Geitner}{+43 507 54037}{Institute of Geography,}{clemens.geitner@uibk.ac.at}{Universit\"at Innsbruck}	
+	\refitem{Martin Mergili}{+43 1 47654 87219}{Institute of Applied Geology,}{martin.mergili@boku.ac.at}{BOKU Vienna}
+	\refitem{Martin Rutzinger}{+43 507 49480}{Institute of Interdisciplinary Mountain Research,}{martin.rutzinger@oeaw.ac.at}{Austrian Academy of Sciences}
+
+\end{references}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Selected publications}
+
+
+\let\oldsection=\section
+\renewcommand{\section}[2]{}%
+{\footnotesize
+\nocite{*}
+\bibliography{pub_FEG}
+\bibliographystyle{thesis-harv}
+}
+\let\section=\oldsection
+
+\vspace*{1.3em}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\begin{twentyshort} % Environment for a short list with no descriptions
+%	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+%	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+%	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+
+
+\vspace*{0.7em}
+
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\emph{Travelling: }Central America, Central and Southeast Asia, Madagascar, Antarctica\\
+\emph{Horticulture: }Community gardening at Waldh\"uttl, Innsbruck\
+
+\end{document} 

@@ -1,0 +1,111 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage{ragged2e}
+\usepackage{lastpage}
+%\usepackage[german]{babel} 
+\usepackage{fancyhdr}
+
+\fancyfoot[C]{ \thepage\ / \pageref{LastPage}}
+\usepackage{pdfpages}
+% moderncv themes
+\moderncvstyle{classic}
+\usepackage{xpatch}
+\xpatchcmd{\makeletterclosing}{[3em]}{[2em]}{}{}%abstand nach closing                           % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\renewcommand*{\namefont}{\fontsize{20}{40}\mdseries\upshape}
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+
+% personal data
+\name{Fabian }{Gruber}
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{Anna-Stainer-Knittel-Weg 3/5/4}{6020 Innsbruck}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+43~650~2587521}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{Fabian.Gruber@uibk.ac.at}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+%\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.2pt]{Foto_FabianGruber}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\renewcommand*{\bibliographyhead}[1]{}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{ Programme Development and Management Unit }{United Nations Office on Drugs and Crime \\Vienna, Austria}
+\date{March 13, 2018}
+\opening{\textbf{Subject: Application as Geographic Information Officer} \\[0.5cm]     To whom it may concern,}
+\closing{With best regards,}
+\enclosure[Attached]{Resume}       % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+
+\makelettertitle
+\justify
+\vspace{-0.5cm} % kleinerer Abstand
+After several years as a research assistant at the Institute of Geography of the University of Innsbruck, I am currently writing my PhD thesis  with the title \emph{Digital terrain analysis to support field soil survey} and relocating to Vienna. The advertised position  appeals to me in that it presents the possibility to continue working in the field of remote sensing and geographic information science and at the same time represents a new, exciting field of research to which I can apply the skillset I have acquired.
+
+Ever since working as a project assistant at the University of Natural Resources and Life Sciences, Vienna (BOKU),remote sensing and the use of geographic information systems have been part of my work. There, I applied satellite imagery and digital terrain models to map natural hazards, both through visual inspection but also automated procedures. Later as a research assistant I  applied image classification to investigate the areal change of glaciers in remote areas of Tajikistan for a hazard assessment. While I started off with ArcGIS as a student and tutor, I have now specialised on the use of Open Source GIS such as GRASS, SAGA and QGIS, and combine the various tools with Python or R scripts. As a research assistant at the Institute of Geography at the University of Innsbruck, I applied these skills to modeling landforms and soil parent material based on digital terrain models and different machine learning approaches. For the latest research project I was employed in, I worked on assessing the results of an object-based image classification approach for mapping shallow landslides.
+
+In addition to my experience with remote sensing, GIS and data analysis with R, I am also used to, and enjoy, working in teams made up of experts from different fields of research. I have enclosed a resume with references, and would enjoy discussing this position at your convenience. Should you require any additional material or information, I am happy to supply it.
+
+Thank you for your consideration.
+
+\makeletterclosing
+%\vspace{-0.5cm}
+\clearpage
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): 
+%\renewcommand{\refname}{Publikationen}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications3}   
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\includepdf{CV_FabianGruber.pdf}
+%\includepdf{DP1_5von5.pdf}
+%\includepdf{DP_6.pdf}
+%\includepdf{DP1_7.pdf}
+%\includepdf{DP2_8.pdf}
+%\includepdf{DP3_9.pdf}
+%\includepdf{DP4_10.pdf}
+\end{document}
+
+
+%% end of file `template.tex'.
